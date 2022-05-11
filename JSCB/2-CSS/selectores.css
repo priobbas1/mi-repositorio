@@ -1,0 +1,107 @@
+/* Simples */
+
+/* Etiqueta */
+
+h1{
+    color: rgb(204, 91, 115);
+}
+
+ul{
+    list-style:circle;
+}
+
+/* ID */
+#unico{
+    color: red;
+}
+
+/* Class */
+.importante{
+font-weight: bold;
+text-decoration: underline;
+color: blue;
+}
+
+.especial{
+    font-style:italic;
+    color:blueviolet /* Si coinciden la clase importante y la especial se aplicaria el color de especial porque esta mas abajo aqui (en el css) */
+}
+
+/* Complejos */
+/* Por atributo */
+
+[lang]{
+    font-family:sans-serif;
+}
+
+[lang="es"]{
+    color:brown;
+}
+
+/*Pseudo-clases*/
+:first-child{
+    border: 1px solid red
+}
+
+:first-of-type{
+    box-shadow: 0 0 5px black;
+}
+
+li:hover{
+    color: magenta;
+}
+
+
+/* Pseudo-elementos*/
+
+p::first-line{
+    font-size: 1.2rem;
+}
+
+p::first-letter{
+    font-size: 3rem;
+    font-family: serif;
+}
+
+::selection{
+    background-color: rebeccapurple;
+    color: azure;
+}
+
+h1::after{
+    content:"😁";
+    font-size: 1rem;
+    color: magenta;
+}
+
+li::before{
+    content:"➡️";
+    font-style: normal;
+}
+
+/* Combinar selectores */
+
+/* Hacerlo mas especifico */
+li:nth-child(3) :first-child /* li que SEA tercer hijo */
+{
+    text-decoration: line-through;
+}
+
+/*Descenientes*/
+section :first-child/*Todos los primeros hijos dentro de section*/{
+    color: green;
+}
+
+/*Hijo directo*/
+section > :first-child /* el primer hijo de section*/{
+    text-decoration:
+    line-through;
+}
+section > p /* los p hijos directos de section */{
+    text-decoration:
+    line-through;
+}
+
+h1, ul{
+    background: lightpink;
+}

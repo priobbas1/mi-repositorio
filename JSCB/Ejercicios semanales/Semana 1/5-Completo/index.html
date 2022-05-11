@@ -4,7 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Debrable</title>
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      
+      <h1>Debrable</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#top">Mi top 10 peliculas</a>
+          </li>
+          <li>
+            <a href="#viaje">Mi viaje a Japon</a>
+          </li>
+          <li>
+            <a href="#contacto">Mandame un mensaje</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article id="#top">
+          <h2>Mi top 10 peliculas</h2>
+          <ol <!-- reversed -->>
+            <li>El padrino</li>
+            <li>La lista de Schindler</li>
+            <li>El padrino. Parte II</li>
+            <li>Cadena perpetua</li>
+            <li>Pulp Fiction</li>
+            <li>El Rey Leon</li>
+            <li>Forrest Gump</li>
+            <li>La vida es bella</li>
+            <li>Gladiator</li>
+            <li>Coco</li>
+          </ol>
+        </article>
+        <article id="viaje">
+          <h2>Mi viaje a Japon</h2>
+          <img src="ruta-a-la-imagen" alt="Descripcion de la imagen">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aut adipisci quasi, similique atque animi quia suscipit quaerat magnam blanditiis, neque ab eos consectetur! Vero vitae explicabo dolore reprehenderit dolorum.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quisquam officiis blanditiis ipsam aut, voluptates sequi delectus earum? Fugiat, enim quas placeat doloribus laboriosam esse odit. Est quas explicabo laborum.</p>
+        </article>
+      </section>
+    <aside>
+      <img src="ruta-a-la-imagen" alt="Descripcion de la imagen">
+      <h2>DEBRA SMITH</h2>
+      <p>Aqui escribo todo lo que se me ocurre</p>
+      <address>
+        <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
+      </address>
+    </aside>
+        
+    <section id="contacto">
+      <h2 id="mensaje">Mandame un mensaje</h2>
+      <form>
+        <fieldset>
+          <ul>
+            <li>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" required>
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="mail"/>
+            </li>
+            <li>
+              <label for="dob">Fecha de nacimiento:</label>
+              <input type="date" id="dob"/>
+            </li>
+          </ul>
+        </fieldset>
+              <label for="comments">Comentarios</label>
+              <textarea name="comments" id="area" cols="30" rows="10"></textarea>
+
+              <p>
+              <input type="checkbox" id="news">
+              <label for="check1">Checkbox1</label>
+              </p>
+
+          <button type="submit">Enviar </button>
+
+      </form>
+    </section>
+    </main>
+      
+
+    <footer>
+      <p>Terminos y condiciones | Politica de privacidad</p>
+    </footer>
+  </main>
+  </body>
 </html>

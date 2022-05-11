@@ -1,0 +1,25 @@
+
+/*Cascade StyleSheet*/
+
+/*selector{
+    propiedad: valor;
+}
+*/
+body{
+    background: rgb(219, 174, 235);
+}
+
+
+html{
+    background: rgb(150, 63, 136);
+    font-family: sans-serif;
+} 
+
+p{
+    color:  rgb(150, 63, 136);
+    font-size: 1.5rem;
+}
+
+article{
+    color: aqua;
+}

@@ -1,0 +1,32 @@
+div{
+    border: 1px solid black;
+    width:10rem;
+    height: 10rem;
+}
+
+#nombre{
+    background-color: blueviolet;
+}
+
+#rgb{
+    background: rgb(255, 153, 255);
+}
+
+#hex{
+    background-color: #FF99FF;
+}
+
+html{
+    background: url("http://source.unsplash.com/random");
+}
+/*CON TRANSPARENCIA */
+#rgba{
+    /*RGB con transparencia. El ultimo numero es la transparencia
+    0= transparente, 1=opaco*/
+    background-color: rgba(255, 153, 255, 0.5)
+}
+
+#hexa{
+    /*Lo mismo que hexadecimal, pero con trasnparencia En este caso si que va de 00 a FF*/
+    background: #FF99FFAA;
+}

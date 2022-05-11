@@ -1,0 +1,24 @@
+/*lo no heredeado pesa mas*/
+
+hi{
+    color: red;
+}
+
+/*ID = 1, 0, 0 */
+#cabecera{
+    color: blueviolet;
+}
+
+.cabecera{
+    color: aqua;
+}
+
+.clase{
+    color: green;
+}
+
+/*Etiqueta = 0, 0, 1 */
+
+header{
+    color: blue;
+}

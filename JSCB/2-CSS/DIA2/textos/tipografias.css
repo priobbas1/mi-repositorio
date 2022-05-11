@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+h1{
+    font-family: sans-serif;
+}
+
+#generica{
+    font-family: monospace;
+}
+
+#local{
+    /*Deberia llevar al menos una tipografia generica, por si acaso*/
+    /*Si el nombre tiene espacios, tiene que ir entre comillas*/
+    font-family: "Courier New";
+}
+
+#backup{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+#externa{
+    font-family: 'Macondo', cursive, sans-serif;
+}

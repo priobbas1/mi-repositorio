@@ -1,0 +1,24 @@
+header {
+    color: blue;
+}
+
+main {
+    color:blueviolet;
+    border: 1px solid black; 
+}
+
+/*Siempre van a pesar mas las reglas aplicadas directamente al elemento que las heredadas*/
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    color: blue;
+}
+
+/*Los enlaces tienen un color propio en el CSS del navegador, por lo que nunca lo heredaran*/
+
+a{
+    color: black;
+}

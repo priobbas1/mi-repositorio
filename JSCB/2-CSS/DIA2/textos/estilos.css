@@ -1,0 +1,65 @@
+li:nth-child(1){
+    /*Cursiva*/
+    font-style: italic;
+}
+
+li:nth-child(2){
+    /*Negrita*/
+    font-weight: bold;
+    font-weight: 700;
+}
+
+li:nth-child(3){
+    /*Negrita*/
+    font-weight: bolder;
+}
+
+li:nth-child(4){
+    /*Cambiar mayusculas*/
+    text-transform: capitalize;
+}
+
+li:nth-child(5){
+    /*Cambiar mayusculas*/
+    text-transform: uppercase;
+}
+
+li:nth-child(6){
+    /*Decoracion*/
+    text-decoration: underline;
+}
+
+li:nth-child(8){
+    /*Decoracion*/
+    text-decoration: underline wavy red 3px;
+}
+
+li:nth-child(8){
+    /*Decoracion*/
+    text-decoration: underline line-through;
+}
+
+/*Las propiedades abreviadas SOBREESCRIBEN a las propiedades que incluyen*/
+
+li:nth-child(9){
+    /*Decoracion*/
+    text-decoration: overline dotted red 3px;
+    text-decoration-line: underline;
+}
+
+li:nth-child(10){
+    /*Decoracion*/
+    text-decoration-line: overline dotted red 3px;
+}
+
+li:nth-child(11){
+    /*Alineacion del TEXTO (dentro de su caja)*/
+    text-align: center;
+}
+
+li:nth-child(12){
+    /*Alineacion del TEXTO (dentro de su caja)*/
+    text-align: center;
+}
+
+
