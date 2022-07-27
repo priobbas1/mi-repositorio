@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    min-height: 100vh;
+}
+
+li{
+    height: 10rem;
+    width: 10rem;
+    list-style-type: none;
+}
+
+ul{
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+

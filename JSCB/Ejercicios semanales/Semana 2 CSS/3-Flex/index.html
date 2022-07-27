@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Flex</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Personaliza tu hamburguesa</legend>
+        <fieldset>
+          <legend>Ingredientes</legend>
+            <ul id="ingredientes">
+              <li>
+                <input type="checkbox" name="queso" id="check1" class="a">
+                <label for="check1">Queso</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Pimiento" id="check1">
+                <label for="check1">Pimiento</label>
+              </li>
+              <li>
+                <input type="checkbox" name="cebolla" id="check1">
+                <label for="check1">Cebolla</label>
+              </li>
+              <li>
+                <input type="checkbox" name="jamon" id="check1">
+                <label for="check1">Jamon</label>
+              </li>
+              <li>
+                <input type="checkbox" name="huevo" id="check1">
+                <label for="check1">Huevo</label>
+              </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Tamaño</legend>
+          <ul id="tamano">
+            <li>
+              <input type="radio" name="radio" id="radio1" value="1">
+            <label for="radio1">Pequena</label>
+            </li>
+            <li>
+              <input type="radio" name="radio" id="radio1" value="2">
+            <label for="radio1">Mediana</label>
+            </li>
+            <li>
+              <input type="radio" name="radio" id="radio1" value="3">
+            <label for="radio1">Grande</label>
+            </li>
+          </ul>
+        </fieldset>
+        </fieldset>
+
+      <fieldset>
+        <legend>Datos de entrega</legend>
+        <ul id="entrega">
+          <li>
+            <label for="name">Nombre</label><input type="text" id="name" placeholder="Samuel Rodriguez"/>
+          </li>
+  
+          <li>
+            <label for="texto">Direccion</label><input type="adress" id="adress" placeholder="Rua Real, 1, A Coruña"/>
+          </li>
+  
+          <li>
+            <label for="texto">Telefono</label><input type="tel" name="texto" id="texto" placeholder="919 04 23 63"/>
+          </li>
+  
+          <li>
+            <label for="area">Instrucciones especiales</label><textarea type="area" name="area" id="texto" placeholder="Sin tomate" cols="46" rows="6"></textarea>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Metodo de pago</legend>
+        <ul id="pago">
+          <li>
+            <label for="select"><!-- Metodo de pago --></label>
+            <select name="select" id="select">
+              <option>Tarjeta de credito</option>
+              <option value="2">Efectivo</option>
+            </select>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <ul id="enviar">
+          <li>
+            <button>Enviar</button>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
+</html>

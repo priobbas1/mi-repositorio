@@ -1,0 +1,36 @@
+html{
+    background-color:aqua;
+    font-family: sans-serif;
+}
+
+#navegador{
+    display:flex;
+    justify-content:center;
+    gap: 2rem;
+}
+
+#navegador li{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+nav li{
+    color: blueviolet;
+    list-style: none;
+    font-weight: bold;
+    
+}
+
+main{
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
+

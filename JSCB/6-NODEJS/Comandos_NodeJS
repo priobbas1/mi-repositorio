@@ -1,0 +1,70 @@
+node -v
+node --version
+ls liat
+npm init -y
+node index.js //se ejecutra un proceso
+node index
+
+node index.js p1 p2 p3 p4
+
+whereis node //no funciono
+which node
+
+echo $? //todos los programas de linux terminan en 0 si se ejecutan adecuadamente, sino en el codigo del error. si por el medio no hubo un exit, el programa acaba con codigo de programa cero
+
+ps aux | wc //numero procesos del pc
+
+ls -iatl
+
+npm install minimist
+npm install prompt-sync
+(los installs en la carpeta de proyecto, donde esta el package.json)
+
+
+---
+
+rm --> borrar carpetas
+ctrl + c --> salir del modo iterativo en los programas de consola
+rm -rf --> borrar carpeta
+
+pwd
+
+echo $PATH
+
+cat demo1.txt (enseña el contenido del .txt)
+ls -lia demo1.txt
+chown (cambiar permisos de un fichero)
+
+
+ctrl + d ( en visual para cambiar el mismo nombre de variable en todos los sitios que aparece en el archivo (refractor?))
+
+
+sudo lsof -i :3306
+
+en linux el puerto tiene que ser a partir del 1024, porque debajo del 1024 en linux tienen que usarse con privilegios de administrador
+
+
+http puerto 80
+https puerto 443
+DNS puerto 53
+
+puerto + ip es un socket de comunicacion
+
+npm install axios
+npm i axios
+
+
+------
+
+file package.json 
+
+nano --> editor de textos en linux
+
+nano nvm
+
+ls -lia
+
+cp .env.example .env //para copiar el env.example en un env
+
+
+keyring en el buscador de aplicaciones de ubuntu para mirar las contraseñas guardadas como la de mySQL

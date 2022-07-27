@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+}
+
+div{
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+
+    /*Cambiar el eje principal: (por defecto row)*/
+    flex-direction: row-reverse;
+
+    /* Decidir si se aplastan o generan filas/columnas nuevas (por defecto nowrap) */
+    flex-wrap: wrap;
+
+    /* Colocar el contenido en el eje principal SI SOBRA SITIO */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+    /* Colocar elementos en el eje secundario SI SOBRA ESPACIO (por defecto es stretch)*/
+    /* align-content: space-between; */
+    /* align-content: center; */
+    align-content: stretch;
+
+    /* Colocar elementos en la fila, SI SOBRA ESPACIO EN LA FILA (por defecto es stretch)*/
+    /* align-items: center; */
+    align-items: flex-end;
+
+    /* Distancia minima entre elementos (el gap es en los ejes) */
+    gap: 1rem;
+    /* gap: 1rem 2rem; */ /* (el gap en cada eje) */
+}
+

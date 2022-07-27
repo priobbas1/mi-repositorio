@@ -17,7 +17,7 @@ p{
     color: blue;
 }
 
-/*Los enlaces tienen un color propio en el CSS del navegador, por lo que nunca lo heredaran*/
+/*Los Enlaces tienen un color propio en el CSS del navegador, por lo que nunca lo heredaran*/
 
 a{
     color: black;

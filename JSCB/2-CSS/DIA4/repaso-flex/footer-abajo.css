@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;/* ! */
+
+    display: flex;/* ! */
+    flex-direction: column;/* ! */
+}
+
+header{
+    background: black;
+    color: white;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    padding: 2rem;
+    background: lightblue;
+    flex-grow: 1;/* ! */
+
+    /* min-height: calc(100vh-10rem-5rem); */ 
+}
+
+img{
+    height: 1rem;
+}
+
+footer{
+    background: gray;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

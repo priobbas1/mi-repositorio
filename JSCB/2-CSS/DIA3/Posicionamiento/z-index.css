@@ -1,0 +1,52 @@
+/* Por defeto sale mas adelante lo que este mas abajo en el HTML */
+/* Si tienen posicion distinta de static "competiran en otro nivel", mas cerca del usuario */
+
+/* Podemos modificarlo con la propiedad z-index
+
+Lo que tenga un z-index mayor se vera por encima
+
+Lo que tenga un z-index menor, se vera por abajo (valen numeros negativos)*/
+
+/* En caso de empate, seguiran las normas por defecto entre ellos
+
+Por defecto, todo tiene 0. */
+
+
+div{
+    border: 1px solid black;
+    width:10rem;
+    height: 10rem;
+    position:relative;
+}
+
+div:first-child{
+    background-color: rgb(50, 153, 153);
+
+    z-index: 2;
+}
+
+div:nth-child(2){
+    background-color: rgb(103, 255, 255);
+    top: -4rem;
+    
+    z-index: 1;
+}
+
+div:nth-child(3){
+    background-color: rgb(0, 159, 159);
+    top: -8rem;
+}
+
+div:nth-child(4){
+    background-color: rgb(0, 113, 113);
+    top: -12rem;
+
+    z-index:-1;
+}
+
+div:nth-child(5){
+    background-color: rgb(0, 60, 60);
+    top: -16rem;
+    z-index: -2;
+}
+

@@ -1,0 +1,5 @@
+// el uuid lo vamos a utilizar para el nombre de la imagen en el proyecto de instagram, pero en las empresas se utiliza como clave primaria en la base de datos en vez de los ids autonumericos que estamos utilizando en este bootcamp. (en otros bootcamps jose no dejaba utilizar ids autonumericos porque dan problemas)
+
+mi duda: en una relacion n,m se haria una tercera columna de uuid que identifiquen a las dos claves primarias???
+
+

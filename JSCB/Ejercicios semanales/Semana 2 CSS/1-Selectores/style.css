@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color: white;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+main{
+    margin-left: 4rem;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+.importante{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li{
+    list-style: circle;
+    height: 2rem;
+}
+
+table{
+    margin-left: 1rem;
+}
+
+tr > *{
+    padding: 1rem;
+}
+
+thead{
+    font:700;
+    color: white;
+    background-color: cornflowerblue;
+    
+}
+
+#descanso{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tbody{ 
+    background-color: rgb(190, 210, 247);
+    height: 2rem;
+}
+
+tr:nth-child(2){
+    background-color: rgb(114, 162, 250);
+}
+
+tr:nth-child(4){
+    background-color: rgb(139, 179, 255);
+}
+
+th:only-of-type{
+    background-color: rgba(236, 250, 114, 0.325);
+}
